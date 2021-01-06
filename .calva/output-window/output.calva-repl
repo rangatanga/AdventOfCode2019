@@ -18,50 +18,97 @@
 clj꞉app.core꞉>  ; Use `alt+enter` to evaluate
 ; Jack-in done.
 clj꞉app.core꞉> 
-; Syntax error compiling at (Day1.clj:5:1).
-; Unable to resolve symbol: Example in this context
-clj꞉user꞉> 
-; Syntax error compiling at (Day1.clj:5:1).
-; Unable to resolve symbol: Example in this context
-clj꞉user꞉> 
-; Syntax error compiling at (Day1.clj:5:1).
-; Unable to resolve symbol: Example in this context
-clj꞉user꞉> 
 nil
 clj꞉aoc꞉> 
-#'aoc/Example
+#'aoc/Example2
 clj꞉aoc꞉> 
-"Hello, hh"
+; Syntax error compiling at (Day1.clj:9:1).
+; Unable to resolve symbol: / in this context
 clj꞉aoc꞉> 
-; Execution error (ArityException) at aoc/eval17076 (form-init8939713443986870252.clj:9).
-; Wrong number of args (0) passed to: aoc/Example
+; Syntax error compiling at (Day1.clj:9:1).
+; Unable to resolve symbol: / in this context
 clj꞉aoc꞉> 
-; Execution error (ArityException) at aoc/eval17195 (form-init8939713443986870252.clj:9).
-; Wrong number of args (0) passed to: aoc/Example
+12
 clj꞉aoc꞉> 
-nil
+2/3
 clj꞉aoc꞉> 
-#'aoc/Example
+2
 clj꞉aoc꞉> 
-; Error printing return value (IOException) at java.io.BufferedReader/ensureOpen (BufferedReader.java:122).
-; Stream closed
+2
 clj꞉aoc꞉> 
-; Syntax error compiling at (Day1.clj:1:7838).
-; Unable to resolve symbol: io in this context
+2
 clj꞉aoc꞉> 
-nil
+2
 clj꞉aoc꞉> 
-; Syntax error compiling at (Day1.clj:6:19).
-; No such namespace: io
+2
 clj꞉aoc꞉> 
-nil
+1
 clj꞉aoc꞉> 
-nil
+4
 clj꞉aoc꞉> 
-#'aoc/Example
+4
 clj꞉aoc꞉> 
-; Error printing return value (IOException) at java.io.BufferedReader/ensureOpen (BufferedReader.java:122).
-; Stream closed
+1
+clj꞉aoc꞉> 
+"2"
+clj꞉aoc꞉> 
+:2
+clj꞉aoc꞉> 
+:2
+clj꞉aoc꞉> 
+; Syntax error compiling at (Day1.clj:9:1).
+; Unable to resolve symbol: <- in this context
+clj꞉aoc꞉> 
+; Execution error (ClassCastException) at aoc/eval16272 (form-init12897787552788701227.clj:9).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉aoc꞉> 
+1/12
+clj꞉aoc꞉> 
+2
+clj꞉aoc꞉> 
+#'aoc/fuel
+clj꞉aoc꞉> 
+1.0
+clj꞉aoc꞉> 
+1.0
+clj꞉aoc꞉> 
+#'aoc/fuel
+clj꞉aoc꞉> 
+-2
+clj꞉aoc꞉> 
+#'aoc/fuel
+clj꞉aoc꞉> 
+-2
+clj꞉aoc꞉> 
+#'aoc/fuel
+clj꞉aoc꞉> 
+2.0
+clj꞉aoc꞉> 
+2.0
+clj꞉aoc꞉> 
+#'aoc/fuel
+clj꞉aoc꞉> 
+2
+clj꞉aoc꞉> 
+#'aoc/fuel
+clj꞉aoc꞉> 
+4
+clj꞉aoc꞉> 
+2
+clj꞉aoc꞉> 
+654
+clj꞉aoc꞉> 
+33583
+clj꞉aoc꞉> 
+#'aoc/Example2
+clj꞉aoc꞉> 
+; Execution error (ClassCastException) at aoc/fuel (form-init12897787552788701227.clj:10).
+; class java.lang.String cannot be cast to class java.lang.Number (java.lang.String and java.lang.Number are in module java.base of loader 'bootstrap')
+clj꞉aoc꞉> 
+#'aoc/Example2
+clj꞉aoc꞉> 
+; Execution error (ClassCastException) at aoc/Example2 (form-init12897787552788701227.clj:5).
+; class java.lang.String cannot be cast to class java.lang.Character (java.lang.String and java.lang.Character are in module java.base of loader 'bootstrap')
 clj꞉aoc꞉> 
 #'aoc/Example2
 clj꞉aoc꞉> 
@@ -165,6 +212,702 @@ clj꞉aoc꞉> 
 61024
 138366
 127943
-
 nil
+clj꞉aoc꞉> 
+; Syntax error reading source at (REPL:14:18).
+; Unmatched delimiter: )
+clj꞉aoc꞉> 
+1234
+clj꞉aoc꞉> 
+; Syntax error macroexpanding doseq at (Day1.clj:16:1).
+; doseq requires a vector for its binding in aoc:16
+clj꞉aoc꞉> 
+nil
+clj꞉aoc꞉> 
+1
+2
+3
+4
+nil
+clj꞉aoc꞉> 
+nil
+clj꞉aoc꞉> 
+nil
+clj꞉aoc꞉> 
+nil
+clj꞉aoc꞉> 
+2
+3
+4
+5
+nil
+clj꞉aoc꞉> 
+; Syntax error compiling at (Day1.clj:16:19).
+; Unable to resolve symbol: x in this context
+clj꞉aoc꞉> 
+2
+3
+4
+5
+nil
+clj꞉aoc꞉> 
+#'aoc/PartOne
+clj꞉aoc꞉> 
+["74819"
+ "111192"
+ "104476"
+ "53965"
+ "89875"
+ "147914"
+ "120203"
+ "73658"
+ "80054"
+ "75468"
+ "88811"
+ "73140"
+ "90128"
+ "51639"
+ "70417"
+ "102818"
+ "106523"
+ "77151"
+ "118711"
+ "146183"
+ "143477"
+ "89008"
+ "67987"
+ "94512"
+ "98199"
+ "118483"
+ "91978"
+ "53595"
+ "144819"
+ "130211"
+ "103326"
+ "113805"
+ "50204"
+ "138909"
+ "113345"
+ "142697"
+ "121281"
+ "128132"
+ "98383"
+ "127929"
+ "88562"
+ "135418"
+ "65123"
+ "94330"
+ "107136"
+ "85822"
+ "86208"
+ "93398"
+ "110176"
+ "143538"
+ ...]
+clj꞉aoc꞉> 
+; Syntax error (IllegalArgumentException) compiling new at (Day1.clj:4:8).
+; No matching ctor found for class java.lang.Integer
+clj꞉aoc꞉> 
+#'aoc/PartOne
+clj꞉aoc꞉> 
+["74819"
+ "111192"
+ "104476"
+ "53965"
+ "89875"
+ "147914"
+ "120203"
+ "73658"
+ "80054"
+ "75468"
+ "88811"
+ "73140"
+ "90128"
+ "51639"
+ "70417"
+ "102818"
+ "106523"
+ "77151"
+ "118711"
+ "146183"
+ "143477"
+ "89008"
+ "67987"
+ "94512"
+ "98199"
+ "118483"
+ "91978"
+ "53595"
+ "144819"
+ "130211"
+ "103326"
+ "113805"
+ "50204"
+ "138909"
+ "113345"
+ "142697"
+ "121281"
+ "128132"
+ "98383"
+ "127929"
+ "88562"
+ "135418"
+ "65123"
+ "94330"
+ "107136"
+ "85822"
+ "86208"
+ "93398"
+ "110176"
+ "143538"
+ ...]
+clj꞉aoc꞉> 
+; Syntax error (ClassCastException) compiling fn* at (Day1.clj:4:3).
+; class clojure.lang.Symbol cannot be cast to class clojure.lang.IPersistentVector (clojure.lang.Symbol and clojure.lang.IPersistentVector are in unnamed module of loader 'app')
+clj꞉aoc꞉> 
+; Syntax error (ClassCastException) compiling fn* at (Day1.clj:4:3).
+; class clojure.lang.Symbol cannot be cast to class clojure.lang.IPersistentVector (clojure.lang.Symbol and clojure.lang.IPersistentVector are in unnamed module of loader 'app')
+clj꞉aoc꞉> 
+#'aoc/PartOne
+clj꞉aoc꞉> 
+; Execution error (ClassCastException) at aoc/PartOne (form-init12897787552788701227.clj:4).
+; class clojure.lang.PersistentVector cannot be cast to class java.lang.Character (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.lang.Character is in module java.base of loader 'bootstrap')
+clj꞉aoc꞉> 
+#'aoc/PartOne
+clj꞉aoc꞉> 
+#'aoc/PartOne
+clj꞉aoc꞉> 
+["74819"
+ "111192"
+ "104476"
+ "53965"
+ "89875"
+ "147914"
+ "120203"
+ "73658"
+ "80054"
+ "75468"
+ "88811"
+ "73140"
+ "90128"
+ "51639"
+ "70417"
+ "102818"
+ "106523"
+ "77151"
+ "118711"
+ "146183"
+ "143477"
+ "89008"
+ "67987"
+ "94512"
+ "98199"
+ "118483"
+ "91978"
+ "53595"
+ "144819"
+ "130211"
+ "103326"
+ "113805"
+ "50204"
+ "138909"
+ "113345"
+ "142697"
+ "121281"
+ "128132"
+ "98383"
+ "127929"
+ "88562"
+ "135418"
+ "65123"
+ "94330"
+ "107136"
+ "85822"
+ "86208"
+ "93398"
+ "110176"
+ "143538"
+ ...]
+clj꞉aoc꞉> 
+nil
+clj꞉aoc꞉> 
+#'aoc/PartOne
+clj꞉aoc꞉> 
+["74819"
+ "111192"
+ "104476"
+ "53965"
+ "89875"
+ "147914"
+ "120203"
+ "73658"
+ "80054"
+ "75468"
+ "88811"
+ "73140"
+ "90128"
+ "51639"
+ "70417"
+ "102818"
+ "106523"
+ "77151"
+ "118711"
+ "146183"
+ "143477"
+ "89008"
+ "67987"
+ "94512"
+ "98199"
+ "118483"
+ "91978"
+ "53595"
+ "144819"
+ "130211"
+ "103326"
+ "113805"
+ "50204"
+ "138909"
+ "113345"
+ "142697"
+ "121281"
+ "128132"
+ "98383"
+ "127929"
+ "88562"
+ "135418"
+ "65123"
+ "94330"
+ "107136"
+ "85822"
+ "86208"
+ "93398"
+ "110176"
+ "143538"
+ ...]
+clj꞉aoc꞉> 
+; Execution error at nrepl.middleware.interruptible-eval/evaluate$fn$fn (interruptible_eval.clj:87).
+; Expecting var, but Integer is mapped to class java.lang.Integer
+clj꞉aoc꞉> 
+123
+clj꞉aoc꞉> 
+#'aoc/PartOne
+clj꞉aoc꞉> 
+; Execution error (IllegalArgumentException) at aoc/PartOne (form-init12897787552788701227.clj:5).
+; No matching ctor found for class java.lang.Integer
+clj꞉aoc꞉> 
+; Syntax error macroexpanding doseq at (Day1.clj:12:1).
+; doseq requires an even number of forms in binding vector in aoc:12
+clj꞉aoc꞉> 
+; Syntax error (IllegalArgumentException) compiling new at (Day1.clj:5:57).
+; No matching ctor found for class java.lang.Integer
+clj꞉aoc꞉> 
+; Syntax error (IllegalArgumentException) compiling new at (Day1.clj:5:8).
+; No matching ctor found for class java.lang.Integer
+clj꞉aoc꞉> 
+; Syntax error macroexpanding doseq at (Day1.clj:12:1).
+; doseq requires a vector for its binding in aoc:12
+clj꞉aoc꞉> 
+; Syntax error macroexpanding doseq at (Day1.clj:12:1).
+; doseq requires a vector for its binding in aoc:12
+clj꞉aoc꞉> 
+; Syntax error (IllegalArgumentException) compiling new at (Day1.clj:12:25).
+; No matching ctor found for class java.lang.Integer
+clj꞉aoc꞉> 
+; Syntax error (IllegalArgumentException) compiling new at (Day1.clj:12:6).
+; No matching ctor found for class java.lang.Integer
+clj꞉aoc꞉> 
+; Error printing return value (ClassCastException) at clojure.lang.RT/intCast (RT.java:1216).
+; class java.lang.String cannot be cast to class java.lang.Character (java.lang.String and java.lang.Character are in module java.base of loader 'bootstrap')
+clj꞉aoc꞉> 
+; Error printing return value (ClassCastException) at clojure.lang.RT/intCast (RT.java:1216).
+; class java.lang.String cannot be cast to class java.lang.Character (java.lang.String and java.lang.Character are in module java.base of loader 'bootstrap')
+clj꞉aoc꞉> 
+; Syntax error (ClassNotFoundException) compiling at (Day1.clj:12:1).
+; Integer.
+clj꞉aoc꞉> 
+; Error printing return value (ClassCastException) at clojure.lang.Numbers/inc (Numbers.java:137).
+; class java.lang.String cannot be cast to class java.lang.Number (java.lang.String and java.lang.Number are in module java.base of loader 'bootstrap')
+clj꞉aoc꞉> 
+; Error printing return value (ArityException) at clojure.lang.AFn/throwArity (AFn.java:429).
+; Wrong number of args (3) passed to: clojure.core/int
+clj꞉aoc꞉> 
+; Execution error (ClassCastException) at aoc/eval20382 (form-init12897787552788701227.clj:14).
+; class java.lang.String cannot be cast to class java.lang.Character (java.lang.String and java.lang.Character are in module java.base of loader 'bootstrap')
+clj꞉aoc꞉> 
+; Execution error at nrepl.middleware.interruptible-eval/evaluate$fn$fn (interruptible_eval.clj:87).
+; Expecting var, but Integer is mapped to class java.lang.Integer
+clj꞉aoc꞉> 
+12
+clj꞉aoc꞉> 
+; Syntax error (ClassNotFoundException) compiling at (Day1.clj:12:1).
+; Integer.
+clj꞉aoc꞉> 
+; Syntax error (ClassNotFoundException) compiling at (Day1.clj:12:1).
+; Integer.
+clj꞉aoc꞉> 
+; Syntax error (ClassNotFoundException) compiling at (Day1.clj:12:1).
+; Integer.
+clj꞉aoc꞉> 
+; Syntax error (ClassNotFoundException) compiling at (Day1.clj:14:1).
+; Integer.
+clj꞉aoc꞉> 
+; Syntax error (ClassNotFoundException) compiling at (Day1.clj:14:1).
+; Integer.
+clj꞉aoc꞉> 
+; Syntax error (ClassNotFoundException) compiling at (Day1.clj:14:1).
+; Integer.
+clj꞉aoc꞉> 
+; Syntax error (ClassNotFoundException) compiling at (Day1.clj:14:1).
+; Integer.
+clj꞉aoc꞉> 
+; Syntax error (IllegalArgumentException) compiling new at (Day1.clj:12:7).
+; No matching ctor found for class java.lang.Integer
+clj꞉aoc꞉> 
+(123 45 22)
+clj꞉aoc꞉> 
+#'aoc/part-one
+clj꞉aoc꞉> 
+(74819
+ 111192
+ 104476
+ 53965
+ 89875
+ 147914
+ 120203
+ 73658
+ 80054
+ 75468
+ 88811
+ 73140
+ 90128
+ 51639
+ 70417
+ 102818
+ 106523
+ 77151
+ 118711
+ 146183
+ 143477
+ 89008
+ 67987
+ 94512
+ 98199
+ 118483
+ 91978
+ 53595
+ 144819
+ 130211
+ 103326
+ 113805
+ 50204
+ 138909
+ 113345
+ 142697
+ 121281
+ 128132
+ 98383
+ 127929
+ 88562
+ 135418
+ 65123
+ 94330
+ 107136
+ 85822
+ 86208
+ 93398
+ 110176
+ 143538
+ ...)
+clj꞉aoc꞉> 
+#'aoc/part-one
+clj꞉aoc꞉> 
+; Execution error (ArityException) at aoc/part-one (form-init12897787552788701227.clj:5).
+; Wrong number of args (0) passed to: aoc/fuel
+clj꞉aoc꞉> 
+; Syntax error compiling at (Day1.clj:5:8).
+; Unable to resolve symbol: % in this context
+clj꞉aoc꞉> 
+#'aoc/part-one
+clj꞉aoc꞉> 
+(24937
+ 37062
+ 34823
+ 17986
+ 29956
+ 49302
+ 40065
+ 24550
+ 26682
+ 25154
+ 29601
+ 24378
+ 30040
+ 17211
+ 23470
+ 34270
+ 35505
+ 25715
+ 39568
+ 48725
+ 47823
+ 29667
+ 22660
+ 31502
+ 32731
+ 39492
+ 30657
+ 17863
+ 48271
+ 43401
+ 34440
+ 37933
+ 16732
+ 46301
+ 37779
+ 47563
+ 40425
+ 42708
+ 32792
+ 42641
+ 29518
+ 45137
+ 21705
+ 31441
+ 35710
+ 28605
+ 28734
+ 31130
+ 36723
+ 47844
+ ...)
+clj꞉aoc꞉> 
+#'aoc/part-one
+clj꞉aoc꞉> 
+(24937
+ 37062
+ 34823
+ 17986
+ 29956
+ 49302
+ 40065
+ 24550
+ 26682
+ 25154
+ 29601
+ 24378
+ 30040
+ 17211
+ 23470
+ 34270
+ 35505
+ 25715
+ 39568
+ 48725
+ 47823
+ 29667
+ 22660
+ 31502
+ 32731
+ 39492
+ 30657
+ 17863
+ 48271
+ 43401
+ 34440
+ 37933
+ 16732
+ 46301
+ 37779
+ 47563
+ 40425
+ 42708
+ 32792
+ 42641
+ 29518
+ 45137
+ 21705
+ 31441
+ 35710
+ 28605
+ 28734
+ 31130
+ 36723
+ 47844
+ ...)
+clj꞉aoc꞉> 
+(123 45 22)
+clj꞉aoc꞉> 
+(123 45 22)
+clj꞉aoc꞉> 
+; Execution error (ClassCastException) at aoc/eval20816 (form-init12897787552788701227.clj:12).
+; class clojure.lang.LazySeq cannot be cast to class clojure.lang.IFn (clojure.lang.LazySeq and clojure.lang.IFn are in unnamed module of loader 'app')
+clj꞉aoc꞉> 
+; Execution error (ClassCastException) at java.lang.Class/cast (Class.java:3605).
+; Cannot cast clojure.lang.LazySeq to java.lang.Number
+clj꞉aoc꞉> 
+; Execution error (ClassCastException) at aoc/eval20877 (form-init12897787552788701227.clj:14).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉aoc꞉> 
+; Execution error (ClassCastException) at java.lang.Class/cast (Class.java:3605).
+; Cannot cast clojure.lang.PersistentList to java.lang.Number
+clj꞉aoc꞉> 
+; Execution error (ClassCastException) at java.lang.Class/cast (Class.java:3605).
+; Cannot cast clojure.lang.Cons to java.lang.Number
+clj꞉aoc꞉> 
+; Execution error (ClassCastException) at java.lang.Class/cast (Class.java:3605).
+; Cannot cast clojure.lang.PersistentList to java.lang.Number
+clj꞉aoc꞉> 
+; Execution error (ClassCastException) at java.lang.Class/cast (Class.java:3605).
+; Cannot cast clojure.lang.PersistentVector to java.lang.Number
+clj꞉aoc꞉> 
+(1 2 3)
+clj꞉aoc꞉> 
+6
+clj꞉aoc꞉> 
+6
+clj꞉aoc꞉> 
+#'aoc/part-one
+clj꞉aoc꞉> 
+3380880
+clj꞉aoc꞉> 
+#'aoc/part-one
+clj꞉aoc꞉> 
+; Execution error (IllegalArgumentException) at aoc/part-one (form-init12897787552788701227.clj:5).
+; Don't know how to create ISeq from: clojure.core$_PLUS_
+clj꞉aoc꞉> 
+; Syntax error (IllegalArgumentException) compiling new at (Day1.clj:4:3).
+; Unable to resolve classname: ->
+clj꞉user꞉> 
+#'user/part-one
+clj꞉user꞉> 
+3380880
+clj꞉user꞉> 
+; Syntax error compiling at (Day1.clj:4:30).
+; Unable to resolve symbol: fuel in this context
+clj꞉user꞉> 
+; Syntax error compiling at (Day1.clj:3:1).
+; Unable to resolve symbol: defn in this context
+clj꞉day1꞉> 
+#'aoc/part-one
+clj꞉aoc꞉> 
+3380880
+clj꞉aoc꞉> 
+#'aoc/strings-to-ints
+clj꞉aoc꞉> 
+nil
+clj꞉aoc꞉> 
+#'aoc/part-one
+clj꞉aoc꞉> 
+; Execution error (IllegalArgumentException) at aoc/part-one (form-init12897787552788701227.clj:5).
+; Don't know how to create ISeq from: aoc$strings_to_ints
+clj꞉aoc꞉> 
+#'aoc/part-one
+clj꞉aoc꞉> 
+3380880
+clj꞉aoc꞉> 
+; Syntax error compiling at (Day1.clj:5:40).
+; Unable to resolve symbol: % in this context
+clj꞉aoc꞉> 
+#'aoc/part-one
+clj꞉aoc꞉> 
+3380880
+clj꞉aoc꞉> 
+nil
+clj꞉user꞉> 
+3380880
+clj꞉user꞉> 
+; Syntax error compiling at (Day1.clj:6:1).
+; Unable to resolve symbol: fuel in this context
+clj꞉user꞉> 
+#'user/part-one
+clj꞉user꞉> 
+; Syntax error reading source at (REPL:6:38).
+; Unmatched delimiter: )
+clj꞉user꞉> 
+#'user/part-one
+clj꞉user꞉> 
+; Syntax error compiling at (Day1.clj:6:1).
+; Unable to resolve symbol: fuel in this context
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/part-one (form-init12897787552788701227.clj:4).
+; class clojure.lang.LazySeq cannot be cast to class clojure.lang.IFn (clojure.lang.LazySeq and clojure.lang.IFn are in unnamed module of loader 'app')
+clj꞉user꞉> 
+; Syntax error compiling at (Day1.clj:6:33).
+; Unable to resolve symbol: fuel in this context
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/part-one (form-init12897787552788701227.clj:4).
+; class clojure.lang.LazySeq cannot be cast to class clojure.lang.IFn (clojure.lang.LazySeq and clojure.lang.IFn are in unnamed module of loader 'app')
+clj꞉user꞉> 
+; Syntax error compiling at (Day1.clj:6:33).
+; Unable to resolve symbol: fuel in this context
+clj꞉user꞉> 
+#'user/part-one
+clj꞉user꞉> 
+; Syntax error compiling at (Day1.clj:9:33).
+; Unable to resolve symbol: fuel in this context
+clj꞉user꞉> 
+; Syntax error compiling at (Day1.clj:9:32).
+; Unable to resolve symbol: fuel in this context
+clj꞉user꞉> 
+; Syntax error compiling at (Day1.clj:9:1).
+; Unable to resolve symbol: fuel in this context
+clj꞉user꞉> 
+#function[aoc/fuel]
+clj꞉aoc꞉> 
+; Execution error (ArityException) at aoc/eval21646 (form-init12897787552788701227.clj:11).
+; Wrong number of args (2) passed to: aoc/part-one
+clj꞉aoc꞉> 
+; Execution error (ArityException) at aoc/eval21664 (form-init12897787552788701227.clj:11).
+; Wrong number of args (2) passed to: aoc/part-one
+clj꞉aoc꞉> 
+#'aoc/part-one
+clj꞉aoc꞉> 
+10143351
+clj꞉aoc꞉> 
+3380880
+clj꞉aoc꞉> 
+#'aoc/fuel-r
+clj꞉aoc꞉> 
+3380880
+clj꞉aoc꞉> 
+; Syntax error (UnsupportedOperationException) compiling recur at (Day1.clj:17:33).
+; Can only recur from tail position
+clj꞉aoc꞉> 
+; Syntax error (UnsupportedOperationException) compiling recur at (Day1.clj:17:33).
+; Can only recur from tail position
+clj꞉aoc꞉> 
+; Syntax error (UnsupportedOperationException) compiling recur at (Day1.clj:17:26).
+; Can only recur from tail position
+clj꞉aoc꞉> 
+; Syntax error (UnsupportedOperationException) compiling recur at (Day1.clj:19:15).
+; Can only recur from tail position
+clj꞉aoc꞉> 
+; Syntax error (UnsupportedOperationException) compiling recur at (Day1.clj:19:15).
+; Can only recur from tail position
+clj꞉aoc꞉> 
+; Syntax error (UnsupportedOperationException) compiling recur at (Day1.clj:19:15).
+; Can only recur from tail position
+clj꞉aoc꞉> 
+; Syntax error (UnsupportedOperationException) compiling recur at (Day1.clj:19:9).
+; Can only recur from tail position
+clj꞉aoc꞉> 
+; Syntax error (UnsupportedOperationException) compiling recur at (Day1.clj:19:9).
+; Can only recur from tail position
+clj꞉aoc꞉> 
+#'aoc/fuel-r
+clj꞉aoc꞉> 
+5068454
+clj꞉aoc꞉> 
+; Syntax error compiling at (Day1.clj:13:1).
+; Unable to resolve symbol: calc-fuel in this context
+clj꞉aoc꞉> 
+#'aoc/calc-fuel
+clj꞉aoc꞉> 
+3380880
+clj꞉aoc꞉> 
+5068454
+clj꞉aoc꞉> 
+50346
+clj꞉aoc꞉> 
+5068454
 clj꞉aoc꞉> 
