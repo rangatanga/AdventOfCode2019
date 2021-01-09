@@ -41,13 +41,6 @@
 
 (part-one)
 
-(let [r1 (r/reduce add-coords [0 0 0 #{}] ["R3" "U3" "L4"])
-      r2 (r/reduce add-coords [0 0 0 #{}] ["L3" "U3" "R4"])]
-  ;;(s/intersection (->> (last r1) (into first)) (->> (last r2) (map first)))
-  (->> (last r1) (map first) set)
-  )
-
-
 
 (defn combined-path [r1 r2 c]
   (let [r1d (-> (filter #(= (first %) c) r1) last)

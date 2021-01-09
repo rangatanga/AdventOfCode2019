@@ -1,5 +1,6 @@
 (ns aoc)
 (require `[clojure.string])
+(require '[clojure.core.reducers :as r])
 
 (defn read-file [fileName]
   (-> fileName slurp clojure.string/trim-newline))
@@ -24,3 +25,15 @@
 
 (defn manhat-dist [[x y]]
   (+ (aoc/abs x) (aoc/abs y)))
+
+(defn group [xs]
+  (defn add-or-append [v x]
+    (let [dlv (vec (drop-last v))
+          clv (vec (conj (last v) x))]
+      (if (= x (first (last v)))
+        (vec (conj dlv clv))
+        (conj v [x]))))
+  (r/reduce add-or-append [] xs))
+
+
+
