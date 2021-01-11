@@ -18,460 +18,1022 @@
 clj꞉app.core꞉>  ; Use `alt+enter` to evaluate
 ; Jack-in done.
 clj꞉app.core꞉> 
-nil
-clj꞉Day4꞉> 
-nil
-clj꞉Day4꞉> 
-nil
-clj꞉Day4꞉> 
-; Syntax error (IllegalArgumentException) compiling new at (Day4.clj:9:8).
-; No matching ctor found for class java.lang.Integer
-clj꞉Day4꞉> 
-; Execution error (IllegalStateException) at Day4/eval14153 (form-init8147413023449078107.clj:11).
-; Attempting to call unbound fn: #'Day4/cnv
-clj꞉Day4꞉> 
-; Syntax error (IllegalArgumentException) compiling new at (Day4.clj:9:8).
-; No matching ctor found for class java.lang.Integer
-clj꞉Day4꞉> 
-; Error printing return value (IllegalArgumentException) at clojure.lang.Reflector/invokeConstructor (Reflector.java:308).
-; No matching ctor found for class java.lang.Integer
-clj꞉Day4꞉> 
-(11 23)
-clj꞉Day4꞉> 
-#'Day4/cnv
-clj꞉Day4꞉> 
-; Execution error (IllegalArgumentException) at Day4/cnv (form-init8147413023449078107.clj:9).
-; No matching ctor found for class java.lang.Integer
-clj꞉Day4꞉> 
-; Execution error (ClassCastException) at Day4/eval16242 (form-init8147413023449078107.clj:13).
-; class java.lang.String cannot be cast to class java.util.regex.Pattern (java.lang.String and java.util.regex.Pattern are in module java.base of loader 'bootstrap')
-clj꞉Day4꞉> 
-nil
-clj꞉Day4꞉> 
-; Execution error (ClassCastException) at Day4/eval16262 (form-init8147413023449078107.clj:13).
-; class java.lang.String cannot be cast to class java.util.regex.Pattern (java.lang.String and java.util.regex.Pattern are in module java.base of loader 'bootstrap')
-clj꞉Day4꞉> 
-["1" "4" "7" "9" "8" "1"]
-clj꞉Day4꞉> 
-; Syntax error (IllegalArgumentException) compiling new at (Day4.clj:10:10).
-; No matching ctor found for class java.lang.Integer
-clj꞉Day4꞉> 
-#'Day4/cnv
-clj꞉Day4꞉> 
-(1 4 7 9 8 1)
-clj꞉Day4꞉> 
-#'Day3/next-num
-clj꞉Day3꞉> 
-; Execution error (ClassCastException) at Day4/eval19714 (form-init8147413023449078107.clj:26).
-; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
-clj꞉Day4꞉> 
-; Execution error (ClassCastException) at Day4/eval19769 (form-init8147413023449078107.clj:26).
-; class clojure.lang.PersistentVector cannot be cast to class java.lang.Number (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
-clj꞉Day4꞉> 
-9
-clj꞉Day4꞉> 
-; Execution error (ClassCastException) at Day4/eval19915 (form-init8147413023449078107.clj:26).
-; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
-clj꞉Day4꞉> 
-9
-clj꞉Day4꞉> 
-9
-clj꞉Day4꞉> 
-#'Day4/chk-asc
-clj꞉Day4꞉> 
-; Syntax error compiling at (Day4.clj:33:1).
-; No such namespace: r
-clj꞉Day4꞉> 
-nil
-clj꞉Day4꞉> 
-; Execution error (ArityException) at Day4/eval21348 (form-init8147413023449078107.clj:33).
-; Wrong number of args (2) passed to: Day4/chk-asc
-clj꞉Day4꞉> 
-#'Day4/chk-asc
-clj꞉Day4꞉> 
-[false 10]
-clj꞉Day4꞉> 
-[true 9]
-clj꞉Day4꞉> 
-#'Day4/chk-asc
-clj꞉Day4꞉> 
-#'Day4/is-dupe
-clj꞉Day4꞉> 
-; Syntax error compiling at (Day4.clj:23:3).
-; Unable to resolve symbol: if in this context
-clj꞉Day4꞉> 
-#'Day4/check-num
-clj꞉Day4꞉> 
+; Syntax error compiling at (Day7.clj:96:14).
+; Unable to resolve symbol: apply-instruction in this context
+clj꞉Day7꞉> 
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
 0
-clj꞉Day4꞉> 
-1
-clj꞉Day4꞉> 
-0
-clj꞉Day4꞉> 
-#'Day4/part-one
-clj꞉Day4꞉> 
-; Execution error (ArityException) at Day4/eval21813 (form-init8147413023449078107.clj:39).
-; Wrong number of args (2) passed to: Day4/part-one
-clj꞉Day4꞉> 
-; Execution error (ClassCastException) at Day4/part-one (form-init8147413023449078107.clj:30).
-; class java.lang.Boolean cannot be cast to class clojure.lang.IFn (java.lang.Boolean is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
-clj꞉Day4꞉> 
-#'Day4/check-num
-clj꞉Day4꞉> 
-; Execution error (ClassCastException) at Day4/part-one (form-init8147413023449078107.clj:30).
-; class java.lang.Boolean cannot be cast to class clojure.lang.IFn (java.lang.Boolean is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
-clj꞉Day4꞉> 
-false
-clj꞉Day4꞉> 
-false
-clj꞉Day4꞉> 
-false
-clj꞉Day4꞉> 
-#'Day4/check-num
-clj꞉Day4꞉> 
-#'Day4/part-one
-clj꞉Day4꞉> 
-; Execution error (ClassCastException) at Day4/part-one (form-init8147413023449078107.clj:30).
-; class java.lang.Boolean cannot be cast to class clojure.lang.IFn (java.lang.Boolean is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
-clj꞉Day4꞉> 
-#'Day4/part-one
-clj꞉Day4꞉> 
-; Execution error (ClassCastException) at Day4/part-one (form-init8147413023449078107.clj:30).
-; class java.lang.Boolean cannot be cast to class clojure.lang.IFn (java.lang.Boolean is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
-clj꞉Day4꞉> 
-#'Day4/part-one
-clj꞉Day4꞉> 
-; Execution error (StackOverflowError) at Day4/part-one (form-init8147413023449078107.clj:30).
+[9 9]   14
+halt
+; Execution error (ArityException) at Day7/eval14375 (form-init7111356885679650794.clj:83).
+; Wrong number of args (2) passed to: Day7/apply-instruction
+; Execution error (ArityException) at Day7/eval14377 (form-init7111356885679650794.clj:85).
+; Wrong number of args (2) passed to: Day7/apply-instruction
+; Execution error (NullPointerException) at Day7/eval14381 (form-init7111356885679650794.clj:102).
 ; null
-clj꞉Day4꞉> 
-(147998
- 147999
- 148000
- 148001
- 148002
- 148003
- 148004
- 148005
- 148006
- 148007
- 148008
- 148009
- 148010
- 148011
- 148012
- 148013
- 148014
- 148015
- 148016
- 148017
- 148018
- 148019
- 148020
- 148021
- 148022
- 148023
- 148024
- 148025
- 148026
- 148027
- 148028
- 148029
- 148030
- 148031
- 148032
- 148033
- 148034
- 148035
- 148036
- 148037
- 148038
- 148039
- 148040
- 148041
- 148042
- 148043
- 148044
- 148045
- 148046
- 148047
- ...)
-clj꞉Day4꞉> 
-#'Day4/check-num
-clj꞉Day4꞉> 
-; Execution error (ClassCastException) at Day4/check-num (form-init8147413023449078107.clj:25).
-; class clojure.lang.PersistentVector cannot be cast to class java.lang.Number (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
-clj꞉Day4꞉> 
-; Execution error (ClassCastException) at Day4/check-num (form-init8147413023449078107.clj:25).
-; class clojure.lang.PersistentVector cannot be cast to class java.lang.Number (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
-clj꞉Day4꞉> 
-[0 1 2 3 4 5 6 7 8 9]
-clj꞉Day4꞉> 
-; Execution error (ClassCastException) at Day4/check-num (form-init8147413023449078107.clj:25).
-; class clojure.lang.PersistentVector cannot be cast to class java.lang.Number (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
-clj꞉Day4꞉> 
-#'Day4/check-num
-clj꞉Day4꞉> 
-[4]
-clj꞉Day4꞉> 
-[1790]
-clj꞉Day4꞉> 
-[]
-clj꞉Day4꞉> 
-; Syntax error reading source at (REPL:47:28).
-; Unclosed character class near index 3
-\a[+
-   ^
-clj꞉Day4꞉> 
-["112233"]
-clj꞉Day4꞉> 
-[]
-clj꞉Day4꞉> 
-["" "2233"]
-clj꞉Day4꞉> 
-; WARNING: eval already refers to: #'clojure.core/eval in namespace: aoc, being replaced by: #'aoc/eval
-; Syntax error compiling at (aoc.clj:33:3).
-; No such namespace: r
-clj꞉aoc꞉> 
-; Syntax error compiling at (aoc.clj:33:3).
-; No such namespace: r
-clj꞉aoc꞉> 
-; Syntax error compiling at (aoc.clj:33:3).
-; No such namespace: r
-clj꞉aoc꞉> 
-; Syntax error compiling at (aoc.clj:34:3).
-; No such namespace: r
-clj꞉aoc꞉> 
-nil
-clj꞉aoc꞉> 
-#'aoc/group
-clj꞉aoc꞉> 
-nil
-clj꞉aoc꞉> 
-; Execution error (IllegalArgumentException) at aoc/group$add-or-append (form-init8147413023449078107.clj:31).
-; Don't know how to create ISeq from: java.lang.Long
-clj꞉aoc꞉> 
-[1]
-clj꞉aoc꞉> 
-[1 2]
-clj꞉aoc꞉> 
-#'aoc/group
-clj꞉aoc꞉> 
-; Execution error (IllegalArgumentException) at aoc/group$add-or-append (form-init8147413023449078107.clj:31).
-; Don't know how to create ISeq from: java.lang.Long
-clj꞉aoc꞉> 
-nil
-clj꞉aoc꞉> 
-(2)
-clj꞉aoc꞉> 
-#'aoc/group
-clj꞉aoc꞉> 
-; Execution error (IllegalArgumentException) at aoc/group$add-or-append (form-init8147413023449078107.clj:31).
-; Don't know how to create ISeq from: java.lang.Long
-clj꞉aoc꞉> 
-#'aoc/group
-clj꞉aoc꞉> 
-; Execution error (IllegalArgumentException) at aoc/group$add-or-append (form-init8147413023449078107.clj:31).
-; Don't know how to create ISeq from: java.lang.Long
-clj꞉aoc꞉> 
-#'aoc/group
-clj꞉aoc꞉> 
-; Execution error (IllegalArgumentException) at aoc/group$add-or-append (form-init8147413023449078107.clj:31).
-; Don't know how to create ISeq from: java.lang.Long
-clj꞉aoc꞉> 
-#'aoc/group
-clj꞉aoc꞉> 
-; Execution error (IllegalArgumentException) at aoc/group$add-or-append (form-init8147413023449078107.clj:31).
-; Don't know how to create ISeq from: java.lang.Long
-clj꞉aoc꞉> 
-nil
-clj꞉aoc꞉> 
-#'aoc/group
-clj꞉aoc꞉> 
-; Execution error (IllegalArgumentException) at aoc/group$add-or-append (form-init8147413023449078107.clj:31).
-; Don't know how to create ISeq from: java.lang.Long
-clj꞉aoc꞉> 
-#'aoc/add-or-append
-clj꞉aoc꞉> 
-[3]
-clj꞉aoc꞉> 
-; Execution error (IllegalArgumentException) at aoc/add-or-append (form-init8147413023449078107.clj:30).
-; Don't know how to create ISeq from: java.lang.Long
-clj꞉aoc꞉> 
-#'aoc/group
-clj꞉aoc꞉> 
-; Execution error (IllegalArgumentException) at aoc/add-or-append (form-init8147413023449078107.clj:30).
-; Don't know how to create ISeq from: java.lang.Long
-clj꞉aoc꞉> 
-[3]
-clj꞉aoc꞉> 
-#'aoc/add-or-append
-clj꞉aoc꞉> 
-#'aoc/group
-clj꞉aoc꞉> 
-; Execution error (IllegalArgumentException) at aoc/add-or-append (form-init8147413023449078107.clj:30).
-; Don't know how to create ISeq from: java.lang.Long
-clj꞉aoc꞉> 
-()
-clj꞉aoc꞉> 
-(1)
-clj꞉aoc꞉> 
-(1 2)
-clj꞉aoc꞉> 
-([1] [2])
-clj꞉aoc꞉> 
-[[2 3] [1]]
-clj꞉aoc꞉> 
-; Execution error (ArityException) at aoc/eval23264 (form-init8147413023449078107.clj:46).
-; Wrong number of args (0) passed to: clojure.lang.PersistentVector
-clj꞉aoc꞉> 
-[[1] [2] 3]
-clj꞉aoc꞉> 
-[[1] [2] [3]]
-clj꞉aoc꞉> 
-[[2 2] [1]]
-clj꞉aoc꞉> 
-#'aoc/add-or-append
-clj꞉aoc꞉> 
-[[1] [2] [3]]
-clj꞉aoc꞉> 
-#'aoc/group
-clj꞉aoc꞉> 
-[[3 3] [1 1] nil [2]]
-clj꞉aoc꞉> 
-[[3 3] [1 1] nil [2] [3]]
-clj꞉aoc꞉> 
-[[3 3] [1 1] nil [2]]
-clj꞉aoc꞉> 
-[1 [2]]
-clj꞉aoc꞉> 
-[[1 1] [2]]
-clj꞉aoc꞉> 
-[[1 1] [2] [3]]
-clj꞉aoc꞉> 
-[[3 3] [1 1] [2]]
-clj꞉aoc꞉> 
-#'aoc/add-or-append
-clj꞉aoc꞉> 
-#'aoc/group
-clj꞉aoc꞉> 
-[[3 [3]] [1 [1]] nil [2]]
-clj꞉aoc꞉> 
-[[3 3] [1 1] [2]]
-clj꞉aoc꞉> 
-[[3 [3]] [1 1] [2]]
-clj꞉aoc꞉> 
-#'aoc/add-or-append
-clj꞉aoc꞉> 
-[[1 1] nil [2]]
-clj꞉aoc꞉> 
-[[1 1]]
-clj꞉aoc꞉> 
-[[1] [2]]
-clj꞉aoc꞉> 
-[[1 1] [2]]
-clj꞉aoc꞉> 
-[[1 1] [2] [3]]
-clj꞉aoc꞉> 
-[[3 3] [1 1] [2]]
-clj꞉aoc꞉> 
-(#function[clojure.core/vec] [3 3] [1 1] [2])
-clj꞉aoc꞉> 
-[[3 3] [1 1] [2]]
-clj꞉aoc꞉> 
-[3 3 ([1 1] [2])]
-clj꞉aoc꞉> 
-[[3 3] [1 1] [2]]
-clj꞉aoc꞉> 
-([3 3] [1 1] [2])
-clj꞉aoc꞉> 
-[[3 3] [1 1] [2]]
-clj꞉aoc꞉> 
-[3 3 ([1 1] [2])]
-clj꞉aoc꞉> 
-([1 1] [2])
-clj꞉aoc꞉> 
-[3 3]
-clj꞉aoc꞉> 
-([3 3] [1 1] [2])
-clj꞉aoc꞉> 
-[[3 3] [1 1] [2]]
-clj꞉aoc꞉> 
-([3 3] [1 1] [2])
-clj꞉aoc꞉> 
-([3 3] [1 1] [2])
-clj꞉aoc꞉> 
-([3 3] [1 1] [2])
-clj꞉aoc꞉> 
-([[3 3]] [1 1] [2])
-clj꞉aoc꞉> 
-([1 1] [2])
-clj꞉aoc꞉> 
-[3 3]
-clj꞉aoc꞉> 
-[[1 1] [2] [3 3]]
-clj꞉aoc꞉> 
-; Execution error (IllegalArgumentException) at aoc/eval23857 (form-init8147413023449078107.clj:54).
-; Key must be integer
-clj꞉aoc꞉> 
-; Execution error (IllegalArgumentException) at aoc/eval23861 (form-init8147413023449078107.clj:54).
-; Key must be integer
-clj꞉aoc꞉> 
-; Execution error (IllegalArgumentException) at aoc/eval23871 (form-init8147413023449078107.clj:54).
-; Key must be integer
-clj꞉aoc꞉> 
-; Execution error (IllegalArgumentException) at aoc/eval23893 (form-init8147413023449078107.clj:54).
-; Key must be integer
-clj꞉aoc꞉> 
-; Execution error (IllegalArgumentException) at aoc/eval23905 (form-init8147413023449078107.clj:56).
-; Key must be integer
-clj꞉aoc꞉> 
-[[1 1] [2]]
-clj꞉aoc꞉> 
-[[1 1] [2] [[3 3]]]
-clj꞉aoc꞉> 
-[[1 1] [2] [3 3]]
-clj꞉aoc꞉> 
-#'aoc/add-or-append
-clj꞉aoc꞉> 
-#'aoc/group
-clj꞉aoc꞉> 
-[nil [1 1] [2]]
-clj꞉aoc꞉> 
-#'aoc/group
-clj꞉aoc꞉> 
-[[1 1] [2]]
-clj꞉aoc꞉> 
-[[1 1] [2] [3]]
-clj꞉aoc꞉> 
-[[1 1] [2] [3 3]]
-clj꞉aoc꞉> 
-#'aoc/group
-clj꞉aoc꞉> 
-[[1 1] [2] [3 3]]
-clj꞉aoc꞉> 
-["" "2233"]
-clj꞉Day4꞉> 
-(1 1 2 2 3 3)
-clj꞉Day4꞉> 
-[[1 1] [2 2] [3 3]]
-clj꞉Day4꞉> 
-; Syntax error compiling at (Day4.clj:47:1).
-; Unable to resolve symbol: length in this context
-clj꞉Day4꞉> 
-(2 2 2)
-clj꞉Day4꞉> 
-; Execution error (IllegalArgumentException) at Day4/eval24168 (form-init8147413023449078107.clj:47).
-; contains? not supported on type: clojure.lang.LazySeq
-clj꞉Day4꞉> 
+clj꞉Day7꞉> 
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+0
+[9 9]   14
+halt
+; Execution error (NullPointerException) at Day7/eval14443 (form-init7111356885679650794.clj:102).
+; null
+clj꞉Day7꞉> 
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+0
+[9 9]   14
+halt
+; Execution error (NullPointerException) at Day7/eval16203 (form-init7111356885679650794.clj:102).
+; null
+clj꞉Day7꞉> 
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+0
+[9 9]   14
+halt
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+1
+[9 9]   14
+halt
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
 2
-clj꞉Day4꞉> 
+[9 9]   14
+halt
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+3
+[9 9]   14
+halt
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+4
+[9 9]   14
+halt
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+5
+[9 9]   14
+halt
+0
 nil
-clj꞉Day4꞉> 
-#'Day4/is-dupe2
-clj꞉Day4꞉> 
-#'Day4/check-num
-clj꞉Day4꞉> 
-#'Day4/check-num2
-clj꞉Day4꞉> 
-[1206]
-clj꞉Day4꞉> 
+clj꞉Day7꞉> 
+; Syntax error compiling at (Day7.clj:105:3).
+; Unable to resolve symbol: a1 in this context
+clj꞉Day7꞉> 
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+0
+[9 9]   14
+halt
+; Execution error (NullPointerException) at Day7/eval16791 (form-init7111356885679650794.clj:103).
+; null
+clj꞉Day7꞉> 
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+0
+[9 9]   14
+halt
+nil[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+1
+[9 9]   14
+halt
+nil[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+2
+[9 9]   14
+halt
+nil[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+3
+[9 9]   14
+halt
+nil[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+4
+[9 9]   14
+halt
+nil[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+5
+[9 9]   14
+halt
+nil0
+nil
+clj꞉Day7꞉> 
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+0
+[9 9]   14
+halt
+a1:  nil
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+1
+[9 9]   14
+halt
+a1:  nil
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+2
+[9 9]   14
+halt
+a1:  nil
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+3
+[9 9]   14
+halt
+a1:  nil
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+4
+[9 9]   14
+halt
+a1:  nil
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+5
+[9 9]   14
+halt
+a1:  nil
+0
+nil
+clj꞉Day7꞉> 
+#'Day7/apply-instruction
+clj꞉Day7꞉> 
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+0
+[9 9]   14
+a1:  0
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+1
+[9 9]   14
+a1:  1
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+2
+[9 9]   14
+a1:  2
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+3
+[9 9]   14
+a1:  3
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+4
+[9 9]   14
+a1:  4
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+5
+[9 9]   14
+a1:  5
+0
+nil
+clj꞉Day7꞉> 
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+0
+[9 9]   14
+a1:  0
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+1
+[9 9]   14
+; Execution error (ClassCastException) at Day7/eval17647 (form-init7111356885679650794.clj:101).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉Day7꞉> 
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+0
+[9 9]   14
+a1:  0
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+1
+[9 9]   14
+; Execution error (ClassCastException) at Day7/eval17799 (form-init7111356885679650794.clj:101).
+; class clojure.lang.Atom cannot be cast to class clojure.lang.IFn (clojure.lang.Atom and clojure.lang.IFn are in unnamed module of loader 'app')
+clj꞉Day7꞉> 
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+0
+[9 9]   14
+a1:  0
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+1
+[9 9]   14
+; Execution error (ClassCastException) at Day7/eval18055 (form-init7111356885679650794.clj:101).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉Day7꞉> 
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+0
+[9 9]   14
+a1:  0
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+1
+[9 9]   14
+a1:  1
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+2
+[9 9]   14
+a1:  2
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+3
+[9 9]   14
+a1:  3
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+4
+[9 9]   14
+a1:  4
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+5
+[9 9]   14
+a1:  5
+5
+nil
+clj꞉Day7꞉> 
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+0
+[9 9]   14
+a1:  0
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+1
+[9 9]   14
+a1:  1
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+2
+[9 9]   14
+a1:  2
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+3
+[9 9]   14
+a1:  3
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+4
+[9 9]   14
+a1:  4
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+5
+[9 9]   14
+a1:  5
+5
+nil
+clj꞉Day7꞉> 
+#'Day7/apply-instruction
+clj꞉Day7꞉> 
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  0
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  1
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  2
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  3
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  4
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  5
+5
+nil
+clj꞉Day7꞉> 
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  0
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  0
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  0
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  0
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  0
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  0
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  1
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  1
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  1
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  1
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  1
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  1
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  2
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  2
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  2
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  2
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  2
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  2
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  3
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  3
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  3
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  3
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  3
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  3
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  4
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  4
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  4
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  4
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  4
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  4
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  5
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  5
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  5
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  5
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  5
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+[3]   0
+[3]   2
+[1 0 0 2]   4
+[1]   8
+[4]   12
+[9 9]   14
+a1:  5
+5
+nil
+clj꞉Day7꞉> 
+#'Day7/apply-instruction
+clj꞉Day7꞉> 
+#'Day7/apply-instruction
+clj꞉Day7꞉> 
+5
+nil
+clj꞉Day7꞉> 
+55
+nil
+clj꞉Day7꞉> 
+55555
+nil
+clj꞉Day7꞉> 
+0
+clj꞉Day7꞉> 
+1
+clj꞉Day7꞉> 
+2
+clj꞉Day7꞉> 
+12
+clj꞉Day7꞉> 
+32
+clj꞉Day7꞉> 
+72
+clj꞉Day7꞉> 
+1232
+clj꞉Day7꞉> 
+4
+clj꞉Day7꞉> 
+43
+clj꞉Day7꞉> 
+432
+clj꞉Day7꞉> 
+4321
+clj꞉Day7꞉> 
+43210
+clj꞉Day7꞉> 
+43214
+clj꞉Day7꞉> 
+44444
+nil
+clj꞉Day7꞉> 
+4
+clj꞉Day7꞉> 
+43
+clj꞉Day7꞉> 
+44
+clj꞉Day7꞉> 
+; Execution error (IllegalArgumentException) at Day7/eval24749 (form-init7111356885679650794.clj:90).
+; Don't know how to create ISeq from: java.lang.Boolean
+clj꞉Day7꞉> 
+true
+clj꞉Day7꞉> 
+true
+clj꞉Day7꞉> 
+; Error printing return value (ClassCastException) at clojure.core/complement$fn (core.clj:1441).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉Day7꞉> 
+()
+clj꞉Day7꞉> 
+(0 2 3)
+clj꞉Day7꞉> 
+43444
+nil
+clj꞉Day7꞉> 
+43444
+nil
+clj꞉Day7꞉> 
+true
+clj꞉Day7꞉> 
+43244
+nil
+clj꞉Day7꞉> 
+43210
+nil
+clj꞉Day7꞉> 
+19650
+nil
+clj꞉Day7꞉> 

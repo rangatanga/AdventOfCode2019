@@ -1,9 +1,9 @@
 (ns aoc)
-(require `[clojure.string])
+(require '[clojure.string :as str])
 (require '[clojure.core.reducers :as r])
 
 (defn read-file [fileName]
-  (-> fileName slurp clojure.string/trim-newline))
+  (-> fileName slurp str/trim-newline))
 
 (defn read-file-lines [fileName]
   (-> fileName slurp clojure.string/split-lines))
@@ -12,13 +12,10 @@
   (map #(Integer. %) (aoc/read-file-lines fileName)))
 
 (defn read-file-split [fileName delim]
-  (-> (aoc/read-file fileName) (clojure.string/split ,,, delim)))
+  (-> (aoc/read-file fileName) (str/split ,,, delim)))
 
 (defn read-file-lines-split [fileName delim]
   (map #(clojure.string/split % delim) (aoc/read-file-lines fileName)))
-
-
-(-> (aoc/read-file "resources/day2.txt") (clojure.string/split ,,, #","))
 
 
 (defn abs [n] (max n (-' n)))
@@ -35,5 +32,11 @@
         (conj v [x]))))
   (r/reduce add-or-append [] xs))
 
+(defn int-to-vec [x]
+  (let [vx  (str/split (str x) #"")]
+    (vec (map #(Integer. %) vx))))
 
 
+(int-to-vec -123)
+
+(str/split (str -123) #"")

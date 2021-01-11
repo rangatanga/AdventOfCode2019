@@ -5,9 +5,6 @@
 (require '[clojure.core.reducers :as r])
 ;;(require '[clojure.set :as s])
 
-(defn cnv [x]
-  (let [vx  (str/split x #"")]
-    (-> (map #(Integer. %) vx)) vec))
 
 (defn chk-asc [[b x] y]
   (if (and b (>= y x))
@@ -20,7 +17,7 @@
     [false y]))
 
 (defn check-num [[cnt] x]
-  (let [xx (cnv (str x))]
+  (let [xx (aoc/int-to-vec (str x))]
     (if (and (first (r/reduce chk-asc [true 1] xx)) (first (r/reduce is-dupe [false 0] xx)))
       [(inc cnt)]
       [cnt])
@@ -35,7 +32,7 @@
   (= 2 (some #{2} (map count (aoc/group  x)))))
 
 (defn check-num2 [[cnt] x]
-  (let [xx (cnv (str x))]
+  (let [xx (aoc/int-to-vec (str x))]
     (if (and (first (r/reduce chk-asc [true 1] xx)) (is-dupe2 xx))
       [(inc cnt)]
       [cnt])))
