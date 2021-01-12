@@ -36,7 +36,3 @@
   (let [vx  (str/split (str x) #"")]
     (vec (map #(Integer. %) vx))))
 
-
-(int-to-vec -123)
-
-(str/split (str -123) #"")
