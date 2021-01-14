@@ -66,7 +66,7 @@
       (if (= 200 cnt)
         cur
         (if (or (= (:grad cur -888) (:grad (data j))) ;;if grad of next item is same as current move to next
-                (contains? s (:ast (data j))))         ;;or if we've already seen the asterisk
+                (contains? s (:ast (data j))))         ;;or if we've already seen the asteroid
           (recur cnt (inc i) cur s )
           (recur (inc cnt) (inc j) (data j) (conj s (:ast (data j)))))))))
 
